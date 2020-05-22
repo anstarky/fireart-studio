@@ -7,6 +7,7 @@
 		"@testing-library/react": "^9.5.0",
 		"@testing-library/user-event": "^7.2.1",
 		"clsx": "^1.1.0",
+		"gh-pages": "^2.2.0",
 		"normalize.css": "^8.0.1",
 		"prop-types": "^15.7.2",
 		"react": "^16.13.1",
@@ -19,8 +20,11 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
+	"homepage": "https://anstarky.github.io/fireart-studio",
 	"eslintConfig": {
 		"extends": "react-app"
 	},
