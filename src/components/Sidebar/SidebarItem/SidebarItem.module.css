@@ -1,0 +1,47 @@
+.menu__item {
+	display: flex;
+	align-items: center;
+	padding-bottom: 30px;
+	text-decoration: none;
+	font-weight: 500;
+	color: #5a6885;
+}
+
+.menu__active {
+	font-weight: 600;
+	color: #1e2a3b;
+}
+
+.menu__active .menu__icon path,
+.menu__active .menu__icon rect {
+	stroke: #2361ff;
+}
+
+.menu__item:hover {
+	cursor: pointer;
+}
+
+.menu__item:hover .menu__text {
+	color: #2361ff;
+}
+
+.menu__icon {
+	margin-right: 20px;
+}
+
+.menu__text {
+	margin: 0;
+	padding-right: 8px;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.menu__desc {
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 13px;
+	color: #8a95ab;
+	background: #f2f6ff;
+	padding: 4px 7px;
+	border-radius: 5px;
+}

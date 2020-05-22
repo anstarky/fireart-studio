@@ -1,0 +1,24 @@
+.sidebar__bottom {
+	position: fixed;
+	bottom: 20px;
+	align-items: center;
+}
+
+.user__ava {
+	float: left;
+	padding-right: 15px;
+}
+
+.user__name {
+	margin: 0;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+@media (min-width: 640px) {
+	.sidebar__bottom {
+		position: relative;
+		bottom: 0;
+	}
+}
